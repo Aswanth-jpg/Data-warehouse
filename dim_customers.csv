@@ -1,0 +1,27 @@
+customer_id,name,email,city,signup_date
+C001,Customer 1,user1@example.com,Mumbai,2020-09-09
+C002,Customer 2,user2@example.com,Berlin,2022-01-17
+C003,Customer 3,user3@example.com,London,2022-05-06
+C004,Customer 4,user4@example.com,Berlin,2021-07-14
+C005,Customer 5,user5@example.com,Berlin,2021-04-19
+C006,Customer 6,user6@example.com,San Francisco,2020-02-28
+C007,Customer 7,unknown@example.com,London,2021-05-25
+C008,Customer 8,user8@example.com,London,2021-11-12
+C009,Customer 9,user9@example.com,London,2021-04-20
+C010,Customer 10,user10@example.com,Berlin,2021-11-30
+C011,Customer 11,user11@example.com,Mumbai,2022-09-02
+C012,Customer 12,user12@example.com,London,2022-02-21
+C013,Customer 13,user13@example.com,Sydney,2020-07-08
+C014,Customer 14,unknown@example.com,Berlin,2022-08-15
+C015,Customer 15,user15@example.com,San Francisco,2021-11-17
+C016,Customer 16,user16@example.com,Mumbai,2022-08-15
+C017,Customer 17,user17@example.com,Sydney,2021-07-16
+C018,Customer 18,user18@example.com,Sydney,2022-05-25
+C019,Customer 19,user19@example.com,San Francisco,2021-07-20
+C020,Customer 20,user20@example.com,Mumbai,2020-08-31
+C021,Customer 21,unknown@example.com,Berlin,2022-04-11
+C022,Customer 22,user22@example.com,New York,2021-05-19
+C023,Customer 23,user23@example.com,Mumbai,2020-05-10
+C024,Customer 24,user24@example.com,San Francisco,2021-04-29
+C025,Customer 25,user25@example.com,Sydney,2022-03-29
+C026,Customer 26,user26@example.com,New York,
