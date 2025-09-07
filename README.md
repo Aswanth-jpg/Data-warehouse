@@ -1,4 +1,4 @@
-# Mini Data Warehouse — Intern Assignment (CSV-only)
+# Mini Data Warehouse
 
 ## Star Schema
 Fact table: **fact_orders**
