@@ -1,46 +1,7 @@
 # Mini Data Warehouse
 
 ## Star Schema
-Fact table: **fact_orders**
-Dimensions: **dim_customers**, **dim_products**, **dim_date**
-
-Schema (brief):
-erDiagram
-    DIM_CUSTOMERS {
-        VARCHAR customer_id PK
-        VARCHAR name
-        VARCHAR email
-        VARCHAR city
-        DATE   signup_date
-    }
-    DIM_PRODUCTS {
-        VARCHAR product_id PK
-        VARCHAR name
-        VARCHAR category
-        NUMERIC price
-    }
-    DIM_DATE {
-        INTEGER date_key PK
-        DATE    date
-        INTEGER year
-        INTEGER month
-        INTEGER day
-        VARCHAR weekday
-        BOOLEAN is_weekend
-    }
-    FACT_ORDERS {
-        VARCHAR  order_id PK
-        VARCHAR  customer_id FK
-        VARCHAR  product_id FK
-        INTEGER  date_key FK
-        INTEGER  quantity
-        NUMERIC  price
-        NUMERIC  total_amount
-    }
-
-    FACT_ORDERS ||--|| DIM_CUSTOMERS : "customer_id"
-    FACT_ORDERS ||--|| DIM_PRODUCTS  : "product_id"
-    FACT_ORDERS ||--|| DIM_DATE      : "date_key"
+![star schema](star schema.png)
 
 ## How to run
 All files are in the repository root or `/mnt/data` if using the bundled notebook environment.
